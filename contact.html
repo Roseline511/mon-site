@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+  </head>
+  <body>
+    <p><strong>Mes coordonnées:</strong></p>
+
+    <address>
+      <p>Nom: Yip Kai-man</p>
+
+      <p>Prenom: Man sok</p>
+
+      <p>🏠Adresse: Hong Kong</p>
+
+      <a href="mailto:yipman@gmail.com">📧 yipman@gmail.com</a>
+      <br />
+      <br />
+
+      <a href="tel:0700000000">📱 0700000000</a>
+    </address>
+
+    <br />
+
+    <hr />
+
+    <br />
+
+    <p><strong>Pour me contacter:</strong></p>
+    <!--formulaire action:mailto:yipman@gmail.com càd quand vous cliquez sur entrée il ouvre la messagerie de yipman-->
+    <form action="mailto:yipman@gmail.com" method="post" enctype="text/plain">
+      <label for="">Votre nom:</label>
+      <input type="text" name="name" id="name" />
+
+      <br />
+
+      <br />
+
+      <label for="email :">Votre email:</label>
+      <input type="email" name="email" id="email" />
+
+      <br />
+
+      <br />
+
+      <label for="">Votre mot de passe</label>
+      <!--input:password-->
+      <input type="password" name="password" id="password" />
+
+      <br />
+
+      <br />
+      <label for="">Votre commentaire:</label><br />
+      <!--textarea-->
+      <textarea name="textarea" id="textarea" cols="30" rows="10">
+Ecrivez votre commentaire ici!</textarea
+      >
+
+      <br />
+
+      <br />
+
+      <!--input:file-->
+      <input type="file" name="file" id="file" />
+
+      <br />
+
+      <br />
+
+      <!--input:submit, on a supprimé value="" à input type submit pour avoir envoyer par défaut-->
+      <input type="submit" id="Envoyer" />
+    </form>
+  </body>
+</html>
